@@ -8,7 +8,7 @@
   "repository": "https://github.com/avnerI/json-schema-local-refrances",
   "scripts": {
     "build:watch": "tsc --build tsconfig.json -w",
-    "start": "tsc && node dist/index.js",
+    "start": "tsc && node lib/index.js",
     "prepublish": "tsc",
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'test/**/*.ts'"
   },
