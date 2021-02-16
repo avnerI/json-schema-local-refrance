@@ -14,8 +14,7 @@ Or
 Usage:
 
 ````
-import { dataReplacer } from 'json-schema-local-refrances
-';
+import { dataReplacer } from 'json-schema-local-refrances';
 
 const newSchema = dataReplacer(myCuttentSchema, myPlaceHolder, myPaylopad);
  
