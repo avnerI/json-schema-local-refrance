@@ -3,16 +3,19 @@ Some of the most popular json-schema-validators out there.
 
 Install:
 
-`yanr add PACKGE_NAME`
+`yanr add json-schema-local-refrances
+`
 
 Or
 
-`npm install PACKGE_NAME`
+`npm install json-schema-local-refrances
+`
 
 Usage:
 
 ````
-import { dataReplacer } from 'PACKEG_NAME';
+import { dataReplacer } from 'json-schema-local-refrances
+';
 
 const newSchema = dataReplacer(myCuttentSchema, myPlaceHolder, myPaylopad);
  
@@ -35,8 +38,8 @@ This schema is tying to validate a payload that the old value is greater than th
 Let's see it in action with the schema above:
 
 ``````
-import { dataReplacer } from 'PACKEG_NAME';
-import Ajv from "ajv"; // one of many supperted schame libraries
+import { dataReplacer } from 'json-schema-local-refrances';
+import Ajv from "ajv"; // one of many supported schame libraries
 
 const myCuttentSchema = {
     type: 'object',
