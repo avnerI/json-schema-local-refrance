@@ -3,7 +3,7 @@ Some of the most popular json-schema-validators out there.
 
 Install:
 
-`yanr add json-schema-local-refrances
+`yarn add json-schema-local-refrances
 `
 
 Or
