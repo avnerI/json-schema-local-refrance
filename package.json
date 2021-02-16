@@ -1,8 +1,8 @@
 {
   "name": "json-schema-local-refrances",
   "version": "1.0.3",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "license": "MIT",
   "description": "Prep json schemas with local references",
   "repository": "https://github.com/avnerI/json-schema-local-refrances",
