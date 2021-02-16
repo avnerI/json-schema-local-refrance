@@ -5,6 +5,7 @@
   "types": "dist/index.d.ts",
   "license": "MIT",
   "description": "Prep json schemas with local references",
+  "repository": "https://github.com/avnerI/json-schema-local-refrance",
   "scripts": {
     "start": "tsc && node dist/index.js",
     "prepublish": "tsc",

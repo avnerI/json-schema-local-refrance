@@ -8,5 +8,9 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "dist",
     "declaration": true,
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }
