@@ -1,11 +1,13 @@
 {
   "name": "json-schema-local-refrance",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "description": "Prep json schemas with local references",
   "scripts": {
     "start": "tsc && node dist/index.js",
+    "prepublish": "tsc",
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'test/**/*.ts'"
   },
   "author": "",
