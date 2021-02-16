@@ -1,19 +1,12 @@
 import {isArray, map, reduce, get} from 'lodash';
 
-
-const x = {
-  some: "$code",
-}
-
-const payload22 = {
-  code: [ 'stuff']
-}
 // @ts-ignore
 const replaceDataInValue = (obj, prefix, payload) => {
+  // @ts-ignore
   return reduce(obj, (acc, value, key) => {
-    if (prefix.test(value)) {
+    if (value.startsWith(prefix)) {
       const prefixLength = prefix.length;
-      return {...acc, key: get(payload, value.substring(prefixLength))};
+      return {...acc, [key]: get(payload, value.substring(prefixLength))};
     }
     if (typeof value === 'object') {
       if (isArray(value)) {
