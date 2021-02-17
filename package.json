@@ -1,6 +1,6 @@
 {
   "name": "json-schema-local-refrances",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "prepublish": "tsc",
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'test/**/*.ts'"
   },
-  "author": "",
+  "author": "Avner Israel",
   "devDependencies": {
     "@types/chai": "^4.2.15",
     "@types/mocha": "^8.2.0",
@@ -25,5 +25,8 @@
   "dependencies": {
     "@types/lodash": "^4.14.168",
     "lodash": "^4.17.20"
-  }
+  },
+  "files": [
+    "lib"
+  ]
 }
