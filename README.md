@@ -14,7 +14,7 @@ Or
 Usage:
 
 ````
-import { dataReplacer } from 'json-schema-local-refrances';
+import { replaceDataInValue } from 'json-schema-local-refrances';
 
 const newSchema = dataReplacer(myCuttentSchema, myPlaceHolder, myPaylopad);
  
@@ -37,7 +37,7 @@ This schema is tying to validate a payload that the old value is greater than th
 Let's see it in action with the schema above:
 
 ``````
-import { dataReplacer } from 'json-schema-local-refrances';
+import { replaceDataInValue } from 'json-schema-local-refrances';
 import Ajv from "ajv"; // one of many supported schame libraries
 
 const myCuttentSchema = {
