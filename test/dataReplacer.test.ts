@@ -35,10 +35,10 @@ describe('Data Replacer in json', () => {
     }
 
     const results = dataReplacer(obj, '$', payload);
-    expect(results.always).to.be.equal(expectedResult);
+    expect(results?.always).to.be.equal(expectedResult);
   });
 
-  it.only('should replace data in complex Object', () => {
+  it('should replace data in complex Object', () => {
     const expectedResult = 5;
     const obj = {
       type: "object",
